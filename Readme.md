@@ -1,15 +1,5 @@
-# Coding Assessment L-2 - Sample Website 
+This project is submitted by Anupam Vashistha
 
-## Files Used
+#DEPLOYED LINK#- https://funny-cuchufli-263453.netlify.app/
 
-1. index.html
-2. script.js
-3. style.css
-4. shirt1.jpg (sample image)
-
-## Links to view the page
-[GithubPages](https://gjaswin.github.io/marmeto-coding-l2/)
-
-[Netlify](https://reliable-piroshki-803b9a.netlify.app)
-
-`Submitted by Jaswin Kumar N R`
+#CONNECT ON LINKEDIN#-https://www.linkedin.com/in/anupam-vashistha-219a26205/
