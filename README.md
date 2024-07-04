@@ -1,5 +1,4 @@
-# marmeto_project_2nd_round
-This Project is designed for marmeto
+This Project is designed by Anupam Vashistha for marmeto.
 
 steps to run this file-
 
