@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Coding Assesment L2 boilerplate</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="displaypic">
+                    <img src="shirt1.jpg" id="dp" alt="">
+                </div>
+
+                <div class="thumbnails">
+                    <div><img src="shirt1.jpg" alt=""></div>
+
+                    <div><img src="shirt1.jpg" alt=""></div>
+
+                    <div><img src="shirt1.jpg" alt=""></div>
+
+                    <div><img src="shirt1.jpg" alt=""></div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="product">
+                    <h4>Marmeto</h4>
+                    <h2>Embrace Sideboard</h2>
+                </div>
+
+                <hr>
+
+                <div class="prices">
+                    <div class="offers">
+                        <h2 id="offerprice"></h2>
+                        <p id="offerperc"></p>
+                        <p id="initprice">$19999.00</p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="colors">
+                    <p>Choose a Color</p>
+                    <button class="yellow" onclick="setColor('Yellow')"></button>
+                    <button class="green" onclick="setColor('Green')"></button>
+                    <button class="blue" onclick="setColor('Blue')"></button>
+                    <button class="pink" onclick="setColor('Pink')"></button>
+                </div>
+                <hr>
+
+                <div class="sizes">
+                    <p>Choose a Size</p>
+                    <form id="sizeForm">
+                        <div>
+                            <input type="radio" name="size" value="Small" onchange="setSize()"><label>Small</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="size" value="Medium" onchange="setSize()"><label>Medium</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="size" value="Large" onchange="setSize()"><label>Large</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="size" value="Extra Large" onchange="setSize()"><label>Extra
+                                Large</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="size" value="XXL" onchange="setSize()"><label>XXL</label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="cart">
+                    <div class="qty"><button onclick="qtyminus()">-</button><span id="qtyshow">1</span><button
+                            onclick="qtyplus()">+</button></div>
+                    <button class="addtocart" id="#addtocart" onclick="addMsg()">
+                        <box-icon name="shopping-bag" color="white"></box-icon>
+                        <p>Add to Cart</p>
+                    </button>
+                </div>
+                <div id="cartmsg"></div>
+                <hr>
+                <div class="desc">
+                    <p>The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection
+                        and look great, this storage solution is both functional and attractive. It fits seamlessly into
+                        any home decor, with clean lines and a timeless look. Crafted from premium materials for a
+                        combination of style, durability, and reliability.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+
+</html>
